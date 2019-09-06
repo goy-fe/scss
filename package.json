@@ -1,0 +1,42 @@
+{
+  "name": "@goy/scss",
+  "version": "0.0.1",
+  "main": "lib/style.scss",
+  "description": "GoyFE team's sass script",
+  "files": [
+    "lib"
+  ],
+  "author": "ntnyq <ntnyq13@gmail.com> (https://ntnyq.com)",
+  "scripts": {
+    "dev": "sass dev:dist --no-source-map --watch",
+    "lint": "stylelint --syntax scss \"**/*.scss\"",
+    "lint:fix": "stylelint --syntax scss --fix \"**/*.scss\"",
+    "pretty": "prettier --write **/*.{yml,md,scss,json}"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.scss": [
+      "prettier --write",
+      "stylelint --syntax scss --fix",
+      "git add"
+    ],
+    "*.{yml,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^3.0.5",
+    "lint-staged": "^9.2.5",
+    "prettier": "^1.18.2",
+    "sass": "^1.23.0-module.beta.1",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-scss": "^3.10.1"
+  }
+}

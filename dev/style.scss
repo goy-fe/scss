@@ -1,0 +1,9 @@
+@import "../lib/style";
+
+.container {
+  .col {
+    @include when(danger) {
+      color: $primary-color;
+    }
+  }
+}
