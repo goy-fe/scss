@@ -1270,10 +1270,10 @@ htmlparser2@^3.10.0:
     inherits "^2.0.1"
     readable-stream "^3.1.1"
 
-husky@^3.0.5:
-  version "3.0.5"
-  resolved "https://registry.npmjs.org/husky/-/husky-3.0.5.tgz#d7db27c346645a8dc52df02aa534a377ad7925e0"
-  integrity sha512-cKd09Jy9cDyNIvAdN2QQAP/oA21sle4FWXjIMDttailpLAYZuBE7WaPmhrkj+afS8Sj9isghAtFvWSQ0JiwOHg==
+husky@^3.0.8:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-3.0.8.tgz#8de3fed26ce9b43034ef51013c4ad368b6b74ea8"
+  integrity sha512-HFOsgcyrX3qe/rBuqyTt+P4Gxn5P0seJmr215LAZ/vnwK3jWB3r0ck7swbzGRUbufCf9w/lgHPVbF/YXQALgfQ==
   dependencies:
     chalk "^2.4.2"
     cosmiconfig "^5.2.1"
@@ -1681,10 +1681,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lint-staged@^9.2.5:
-  version "9.2.5"
-  resolved "https://registry.npmjs.org/lint-staged/-/lint-staged-9.2.5.tgz#5a3e1e0a539a403bd7f88542bc3d34ce52efdbb3"
-  integrity sha512-d99gTBFMJ29159+9iRvaMEQstmNcPAbQbhHSYw6D/1FncvFdIj8lWHztaq3Uq+tbZPABHXQ/fyN7Rp1QwF8HIw==
+lint-staged@^9.4.2:
+  version "9.4.2"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-9.4.2.tgz#14cb577a9512f520691f8b5aefce6a8f7ead6c04"
+  integrity sha512-OFyGokJSWTn2M6vngnlLXjaHhi8n83VIZZ5/1Z26SULRUWgR3ITWpAEQC9Pnm3MC/EpCxlwts/mQWDHNji2+zA==
   dependencies:
     chalk "^2.4.2"
     commander "^2.20.0"
@@ -2635,10 +2635,10 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-sass@^1.23.0-module.beta.1:
-  version "1.23.0-module.beta.1"
-  resolved "https://registry.npmjs.org/sass/-/sass-1.23.0-module.beta.1.tgz#9d0f823dcdcd58fc1c1345993ff0306289320963"
-  integrity sha512-Cb6l+z/z5mIpOe8lPp+DttHhHyb6J8SsscSIhLUzqDH2Ta2+9mpz8TRvYezD1n+Ey1TWi3EKz8VUPg42Zc1vmA==
+sass@^1.23.0:
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.23.0.tgz#bd526ff40dbc5d09a4ed69e2cffa849749977710"
+  integrity sha512-W4HT8+WE31Rzk3EPQC++CXjD5O+lOxgYBIB8Ohvt7/zeE2UzYW+TOczDrRU3KcEy3+xwXXbmDsOZFkoqgD4TKw==
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 
@@ -2939,10 +2939,10 @@ stylelint-config-standard@^18.3.0:
   dependencies:
     stylelint-config-recommended "^2.2.0"
 
-stylelint-scss@^3.10.1:
-  version "3.10.1"
-  resolved "https://registry.npmjs.org/stylelint-scss/-/stylelint-scss-3.10.1.tgz#4034a37aebb55a6474c1e8e4de0a8503842f106e"
-  integrity sha512-YnzYmcLd5DGGsjfoj44gArjo3TWhMWjS/ytfu+1HKtToZae5ditZOXHBmrgitsHvNk9mzp5WO3/PjA5IO1GpUw==
+stylelint-scss@^3.11.1:
+  version "3.11.1"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.11.1.tgz#016a6c1a6e051faed0a186b3698fcf24b0e90b0d"
+  integrity sha512-0FZNSfy5X2Or4VRA3Abwfrw1NHrI6jHT8ji9xSwP8Re2Kno0i90qbHwm8ohPO0kRB1RP9x1vCYBh4Tij+SZjIg==
   dependencies:
     lodash "^4.17.15"
     postcss-media-query-parser "^0.2.3"
